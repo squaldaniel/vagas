@@ -5,14 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class usersModel extends Model
+class usersInfoModel extends Model
 {
     use HasFactory;
-    public $table = 'users';
+    public $table = 'users_info';
     public $timestamps = false;
     public $fillable = [
-        'email',
-	    'snhpwd'
+        'fullname',
+        'cep'
     ];
-    
 }

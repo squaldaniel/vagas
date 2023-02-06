@@ -10,6 +10,13 @@ create table users(
 	deleted_in datetime DEFAULT CURRENT_TIMESTAMP
 )engine=innodb charset=utf8mb4;
 
+create table users_info(
+	id bigint auto_increment primary key,
+	user_id bigint references users(id),
+	fullname varchar(100),
+	cep varchar(9)
+)engine=innodb charset=utf8mb4;
+
 create table skill (
 	id bigint auto_increment primary key,
 	nome_skill varchar(100),
