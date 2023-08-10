@@ -1,6 +1,6 @@
 <IfModule mod_php8.c>
     AddType application/x-httpd-php8 .php
-    SetEnv PHP_VER 8
+    SetEnv PHP_VER 81
 </IfModule>
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
