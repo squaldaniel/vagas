@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('adminlte.index');
+    return view('adminlte.bodyteste');
 });
 Route::get('register', function(){
    return view('adminlte.pages.examples.register-v2');
