@@ -1,4 +1,4 @@
-<IfModule mod_php7.c>
+<IfModule mod_php8.c>
     AddType application/x-httpd-php8 .php
     SetEnv PHP_VER 8
 </IfModule>
