@@ -14,9 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('adminlte.bodyteste');
+    return view('bootstrap.index');
 });
-Route::get('register', function(){
-   return view('adminlte.pages.examples.register-v2');
-});
-Route::post('/register/user', [App\Http\Controllers\UserController::class, 'addnewuser']);
